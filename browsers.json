@@ -1,0 +1,42 @@
+{
+   "capabilities":[
+      {
+         "browserName":"chrome",
+         "platform":"WINDOWS",
+         "version":"55",
+         "javascriptEnabled":true,
+         "seleniumProtocol":"WebDriver",
+         "maxInstances":5
+      },
+      {
+         "browserName":"internet explorer",
+         "platform":"WINDOWS",
+         "version":"11",
+         "javascriptEnabled":true,
+         "nativeEvents":false,
+         "seleniumProtocol":"WebDriver",
+         "maxInstances":5
+      },
+      {
+         "browserName":"firefox",
+         "platform":"WINDOWS",
+         "version":"53",
+         "javascriptEnabled":true,
+         "seleniumProtocol":"WebDriver",
+         "maxInstances":5
+      },
+      {
+         "browserName":"MicrosoftEdge",
+         "platform":"WINDOWS",
+         "version":"14",
+         "javascriptEnabled":true,
+         "seleniumProtocol":"WebDriver",
+         "maxInstances":5
+      }
+   ],
+   "maxSession":5,
+   "port":5555,
+   "cleanUpCycle":2000,
+   "timeout":30000,
+   "register":true
+}
